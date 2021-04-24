@@ -6,6 +6,7 @@ import {addItem} from '../../redux/cart/cart.actions';
 
 const CollectionItem = ({item}) => {
     const dispatch = useDispatch();
+    // console.log('i am being called Collection Item'); // testing for component re-rendering
     const { id, name, price, imageUrl } = item;
     
    return (
