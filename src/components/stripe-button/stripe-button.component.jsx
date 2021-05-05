@@ -15,7 +15,7 @@ const StripeCheckoutButton = ({ price }) => {
     <StripeCheckout
       name="Yomame Limited"
       label="Pay Now"
-      currency="gbp"
+      currency="GBP"
       locale="UK"
       billingAddress
       shippingAddress
